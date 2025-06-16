@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>BMI Buddy Details Page</title>
+</head>
+
+<body class="selection-body">
+<section class="main-selection">
+       <!-- Hour glass block pg2 -->
+<div class="hourglass-container2">
+
+  <div class="hour-glass2">
+  <div class="waist2">
+  <div class="semi-circletop2"></div>
+  <div class="semi-circlebottom2"></div>
+</div>
+</div>
+</div>
+<!-- header main -->
+<h2 class="heading">BMI Buddy</h2>
+
+ <!-- Gender selection -->
+    <div class="gender-selection">
+      <button class="gender-m" onclick="selectGender('male')"><i class="fa-solid fa-mars"></i>
+    <span>MALE</span>
+    </button>
+
+      <button class="gender-f" onclick="selectGender('female')">
+        <i class="fa-solid fa-venus"></i>
+        <span>FEMALE</span>
+    </button>
+    </div>
+
+  <!-- Height boxes -->
+  <div class="height-inputs">
+  <label for="heightFeet">Height</label>
+  <div class="height-fields">
+    <input type="number" id="heightFeet" min="0" max="8" placeholder="ft">
+    <input type="number" id="heightInches" min="0" max="11" placeholder="in">
+  </div>
+</div>
+
+
+    <!-- Weight and Age Counters -->
+    <div class="input-boxes">
+      <div class="input-control">
+        <label>Weight (lbs)</label>
+        <div class="counter">
+          <button onclick="updateValue('weight', -1)">–</button>
+          <input id="weightValue" type="number" value="65" min="1" />
+          <button onclick="updateValue('weight', 1)">+</button>
+        </div>
+
+        <!-- Age and age counter -->
+      </div>
+      <div class="input-control">
+        <label>Age</label>
+        <div class="counter">
+          <button onclick="updateValue('age', -1)">–</button>
+          <input id="ageValue" type="number" value="27" min="1" />
+          <button onclick="updateValue('age', 1)">+</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Calculate Button -->
+     <div class="button-container">
+       <button class="calculate-btn" onclick="goToResult()">Calculate</button>
+     </div>
+
+</section>
+<footer class="footer">
+  Made with <span class="heart">❤️</span> by Rukhsar Pathan
+</footer>
+    <script src="script.js"> </script>
+</body>
+</html>

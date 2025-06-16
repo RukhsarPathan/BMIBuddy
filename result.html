@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>BMI Buddy Result Page</title>
+</head>
+<body class="result-body">
+  <section class="main-selection">
+    <!-- Hour glass block -->
+    <div class="hourglass-container2" id="hourglass-click">
+      <div class="hour-glass2">
+        <div class="waist2">
+          <div class="semi-circletop2"></div>
+          <div class="semi-circlebottom2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <h2 class="heading" id="heading-click">BMI Buddy</h2>
+    <h3 class="result">Result</h3>
+    
+
+    <!-- BMI Result Display -->
+     <div class="bmi-box">
+      
+        <div class="bmi-top-row">
+            <p class="bmi-left">Your BMI is</p> 
+            <p id="bmi-category" class="bmi-right">Underweight</p>
+      </div>
+        <h1 id="bmi-value">18.7</h1>
+      <input type="range" id="bmi-range" min="10" max="40" value="18.7" disabled />
+     </div>
+    
+
+
+    <!-- Dynamic Recommendation Content -->
+    <div class="recommendation-section">
+      <h2 id="recommendation-title">Underweight</h2>
+      <ul id="calories-list">
+        <!-- Dynamic list items inserted here -->
+      </ul>
+
+      <ul id="nutrients-list">
+        <!-- Dynamic list items inserted here -->
+      </ul>
+    </div>
+    <div class="recalculate-container">
+      <a href="selection.html" class="recalculate">Recalculate</a>
+
+    </div>
+    
+  </section>
+  <footer class="footer">
+  Made with <span class="heart">❤️</span> by Rukhsar Pathan
+</footer>
+
+  <script src="script.js"></script>
+
+  </body>
