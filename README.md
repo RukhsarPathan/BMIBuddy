@@ -1,10 +1,10 @@
-BMI Buddy 💚💪
+# BMI Buddy 💚💪
 🔗 Live Site: [BMI Buddy Web App](https://rukhsarpathan.github.io/BMIBuddy/)
 
-🧠 What is BMI Buddy?
+## 🧠 What is BMI Buddy?
 BMI Buddy is a modern, responsive, and easy-to-use Body Mass Index (BMI) calculator designed to give users a quick overview of their health status. It provides insights based on gender, height, weight, and age — and gives visual recommendations tailored to their BMI category.
 
-✨ Features
+## ✨ Features
 	• 👥 Gender selection (Male or Female)
 	• 📏 Height input (in feet and inches)
 	• ⚖️ Weight and Age control using interactive buttons
@@ -12,7 +12,7 @@ BMI Buddy is a modern, responsive, and easy-to-use Body Mass Index (BMI) calcula
 	• 📊 BMI Category Insights: Underweight, Normal, Overweight, or Obese
 	• ✅ Smart health tips based on the result
 
-💡 Why It’s Useful
+##💡 Why It’s Useful
 With lifestyle changes and remote working becoming the norm, many individuals overlook regular health checkups. BMI Buddy is a quick and effective way to check your BMI and get recommendations that help you stay informed and proactive about your health — without needing to Google formulas or browse cluttered websites.
 
 🎨 Design & Tech
@@ -45,4 +45,4 @@ Made with ❤️ by Rukhsar Pathan
 
 📸 Screenshots
 (Add screenshots here if you have them!)
-![image](https://github.com/user-attachments/assets/f60e5951-d369-4cc6-a847-360f70851bc5)
+![image]
