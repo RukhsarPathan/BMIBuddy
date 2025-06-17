@@ -1,17 +1,17 @@
 // ---------- INDEX PAGE LOGIC ----------
-if (window.location.pathname.includes("index.html") || window.location.pathname === "/") {
+if (window.location.pathname.includes("./index.html") || window.location.pathname === "/") {
   setTimeout(() => {
     document.body.style.transition = "opacity 0.3s ease";
     document.body.style.opacity = "0";
 
     setTimeout(() => {
-      window.location.href = "selection.html";
+      window.location.href = "./selection.html";
     }, 300);
   }, 2000);
 }
 
 // ---------- SELECTION PAGE LOGIC ----------
-if (window.location.pathname.includes("selection.html")) {
+if (window.location.pathname.includes("./selection.html")) {
   // Gender logic
   let selectedGender = null;
   window.selectGender = function (gender) {
