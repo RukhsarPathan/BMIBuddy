@@ -15,34 +15,34 @@ BMI Buddy is a modern, responsive, and easy-to-use Body Mass Index (BMI) calcula
 ##💡 Why It’s Useful
 With lifestyle changes and remote working becoming the norm, many individuals overlook regular health checkups. BMI Buddy is a quick and effective way to check your BMI and get recommendations that help you stay informed and proactive about your health — without needing to Google formulas or browse cluttered websites.
 
-🎨 Design & Tech
+## 🎨 Design & Tech
 BMI Buddy is thoughtfully designed to look fresh, user-friendly, and visually engaging. Here's what powers it:
-💻 Tech Stack
+### 💻 Tech Stack
 	• HTML for structure
 	• CSS (with custom properties / variables) for styling
 	• JavaScript for interactivity and logic
-🧑‍🎨 UI Highlights
+### 🧑‍🎨 UI Highlights
 	• Glassmorphism-inspired block UI
 	• Custom color palette featuring soft greens and muted dark backgrounds
 	• Font: Josefin Sans for a modern and clean typeface
 	• Beautiful range slider and animated button interactions
 
-📱 Responsiveness
+### 📱 Responsiveness
 	• Designed mobile-first 📱
 	• Fully responsive for tablet and desktop 🖥️
 	• Elements resize elegantly across breakpoints
 
-⚙️ Core Elements Used
+### ⚙️ Core Elements Used
 	• Flexbox for layout management
 	• CSS Variables for color theming
 	• JavaScript functions and DOM manipulation for calculations
 	• Event listeners for buttons and inputs
 	• Media queries for responsive behavior
 
-👩🏻‍💻 Made With Love
+##👩🏻‍💻 Made With Love
 Made with ❤️ by Rukhsar Pathan
 🔗 Connect on LinkedIn: [Rukhsar Pathan](https://www.linkedin.com/in/rukhsarpathan7/)
 
-📸 Screenshots
+### 📸 Screenshots
 (Add screenshots here if you have them!)
 ![image]
