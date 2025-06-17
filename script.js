@@ -65,20 +65,22 @@ if (window.location.pathname.includes("selection.html")) {
 }
 
 // ---------- RESULT PAGE LOGIC ----------
-if (window.location.pathname.includes("result.html")) {
+const path = window.location.pathname;
+if (path.endsWith("result.html") || path === "/" || path === "/BMI-Buddy/") 
+{
   // Redirect when clicking header or hourglass
   const heading = document.getElementById("heading-click");
   const hourglass = document.getElementById("hourglass-click");
 
   if (heading) {
     heading.addEventListener("click", () => {
-      window.location.href = "selection.html";
+      window.location.href = "./selection.html";
     });
   }
 
   if (hourglass) {
     hourglass.addEventListener("click", () => {
-      window.location.href = "selection.html";
+      window.location.href = "./selection.html";
     });
   }
 
