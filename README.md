@@ -38,6 +38,7 @@ BMI Buddy is thoughtfully designed to look fresh, user-friendly, and visually en
 	• JavaScript functions and DOM manipulation for calculations
 	• Event listeners for buttons and inputs
 	• Media queries for responsive behavior
+
  ## Design Inspirtation
  ### Dribbble
  Credits: [Urvik Moradiya](https://dribbble.com/shots/22451667-BMI-Calculator-Mobile-App-UI-Design)
@@ -45,7 +46,7 @@ BMI Buddy is thoughtfully designed to look fresh, user-friendly, and visually en
 ## 👩🏻‍💻 Made With Love
 Made with ❤️ by Rukhsar Pathan
 
-##🔗 Connect on LinkedIn: [Rukhsar Pathan](https://www.linkedin.com/in/rukhsarpathan7/)
+### 🔗 Connect on LinkedIn: [Rukhsar Pathan](https://www.linkedin.com/in/rukhsarpathan7/)
 
 ### 📸 Screenshots
 
