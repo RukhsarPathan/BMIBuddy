@@ -141,17 +141,9 @@ body {
 hour-glass icon */
 
 /*hour-glass square */
-.hour-glass2 {
-    background-color: var(--buttons);
-    height:30px;
-    width:30px;
-    border: 2px solid var(--buttons);
-    border-radius:10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-       
-}
+
+ 
+
 .semi-circletop2 {
     background-color: var(--bg-color);
     height:10px;
@@ -182,22 +174,26 @@ html, body {
   box-sizing: border-box;
 }
 /*hour-glass square */
-.hour-glass2 {
+.hour-glass-selection {
     background-color: var(--buttons);
     height:30px;
     width:30px;
     border: 2px solid var(--buttons);
     border-radius:10px;
-    margin:2%;
-
-       
-}
-.heading {
-    color:var(--text-color-body);
-    margin: 20px 0px 5px 10px;
+    margin:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }    
+.heading-selection {
+  color:var(--text-color-body);
+    margin: 30px 10px 0px 10px;
     font-size: 1.5rem;
     font-family: var(--h1font-size);
     line-height:1.2;
+    position: relative;
+    bottom: 60px;
+    
 
 }
 .semi-circletop2 {
@@ -433,6 +429,27 @@ bottom:20px;
 }
 
 /* Styling for result.html starts here */
+.hour-glass2 {
+    background-color: var(--buttons);
+    height:30px;
+    width:30px;
+    border: 2px solid var(--buttons);
+    border-radius:10px;
+    margin:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.heading {
+    color:var(--text-color-body);
+    margin: 20px 0px 5px 10px;
+    font-size: 1.5rem;
+    font-family: var(--h1font-size);
+    line-height:1.2;
+
+}
 .bmi-box {  
   background-color: var(--block-color); /* transparent glassy */
   padding: 20px;
@@ -647,6 +664,29 @@ input[type="number"] {
     width: 60px;
     font-size: 1.6rem;
   }
+  .hour-glass-selection {
+      background-color: var(--buttons);
+    height:30px;
+    width:30px;
+    border: 2px solid var(--buttons);
+    border-radius:10px;
+    margin:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }    
+.heading-selection {
+  color:var(--text-color-body);
+    margin: 20px 20px 0px 30px;
+    font-size: 1.5rem;
+    font-family: var(--h1font-size);
+    line-height:1.2;
+    position: relative;
+    bottom: 60px;
+    
+
+}
+
 }
 
 @media (min-width: 1024px) {
@@ -663,6 +703,28 @@ input[type="number"] {
     width: 70px;
     font-size: 1.7rem;
   }
+    .hour-glass-selection {
+      background-color: var(--buttons);
+    height:30px;
+    width:30px;
+    border: 2px solid var(--buttons);
+    border-radius:10px;
+    margin:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }    
+.heading-selection {
+  color:var(--text-color-body);
+    margin: 20px 20px 0px 30px;
+    font-size: 1.5rem;
+    font-family: var(--h1font-size);
+    line-height:1.2;
+    position: relative;
+    bottom: 60px;
+    
+
+}
 }
 /* Footer styling credits */
 .footer {
