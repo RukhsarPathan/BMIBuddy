@@ -44,5 +44,11 @@ Made with ❤️ by Rukhsar Pathan
 🔗 Connect on LinkedIn: [Rukhsar Pathan](https://www.linkedin.com/in/rukhsarpathan7/)
 
 ### 📸 Screenshots
-[/MobileView.png]
-[/DesktopView.png]
+
+
+#### 📱 Mobile View  
+![Mobile View](./MobileView.png)
+
+#### 💻 Desktop View  
+![Desktop View](./DesktopView.png)
+
