@@ -44,5 +44,5 @@ Made with ❤️ by Rukhsar Pathan
 🔗 Connect on LinkedIn: [Rukhsar Pathan](https://www.linkedin.com/in/rukhsarpathan7/)
 
 ### 📸 Screenshots
-(Add screenshots here if you have them!)
-![image]
+[MobileView.png]
+[DesktopView.png]
